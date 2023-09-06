@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakem's University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class = "header">
+       <nav>
+        <a href="index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+       </nav> 
+       <div class="text-box">
+        <h1>Mohamed AlHakem's University</h1>
+        <p>This is not a real University.<br> I am a web developer and this is just a demonstration of what I can do.</p>
+        <a href="" class="hero-btn">Visit us to know more!</a>
+       </div>
+    </section>
+    <!-------course------>
+    <section class="course">
+        <h1>Offered Courses</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Real Madrid is the greatest club in the World. Cristiano Ronlado dos Santos Aveiro is, was and will always be the greatest player of all time.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Real Madrid is the greatest club in the World. Cristiano Ronlado dos Santos Aveiro is, was and will always be the greatest player of all time.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Real Madrid is the greatest club in the World. Cristiano Ronlado dos Santos Aveiro is, was and will always be the greatest player of all time.</p>
+            </div>
+        </div>
+    </section>
+   <!-------campus ----------->
+
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>AlNassr is the greatest club in Asia and Ronaldo is the greatest player of all time so it only makes sense that he plays for them.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="Images/london.png">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Images/newyork.png">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Images/washington.png">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!---------Facilities---------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>AlNassr is the first Asian club to play in the Club World Cup hence it is known by its fans as "The Global", AlNassr is also the first ever team to win the fair play award at the Club World Cup cementing its legacy forever and representing the club's values at a global stage</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/library.png">
+                <h3>World Class Library</h3>
+                <p>Hala Madrid y Nada Mas</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/basketball.png">
+                <h3>Champions of college basketball</h3>
+                <p>Hala Madrid y Nada Mas</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/cafeteria.png">
+                <h3>Amazing Cuisine</h3>
+                <p>Hala Madrid y Nada Mas</p>
+            </div>
+
+        </div> 
+    </section>
+    <!-- testimonial -->
+    <section class="testimonials">
+        <h1>Our Alumni</h1>
+        <p>AlNassr is the first Asian club to play in the Club World Cup hence it is known by its fans as "The Global", AlNassr is also the first ever team to win the fair play award at the Club World Cup cementing its legacy forever and representing the club's values at a global stage</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="Images/user1.jpg">
+                <div>
+                    <p>Comos no te voy a quierer. Si eres campeon Europa y a otra vez</p>
+                    <h3>Nerd #1</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="Images/user2.jpg">
+                <div>
+                    <p>Comos no te voy a quierer. Si eres campeon Europa y a otra vez</p>
+                    <h3>Nerd #2</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- call to action -->
+    <section class="cta">
+        <h1>Enroll now!</h1>
+        <a href=""class="hero-btn">CONTACT US</a>
+    </section>
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website was made by MohamedAlKamel Omer Hussien Suliman AL-Hakem.<br> For more information contact me at this email: m7mdal7akim@gmail.com</p>
+    </section>
+
+
+
+
+
+
+
+    <!-----------JS code to toggle menu------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+    
+</body>
+</html>

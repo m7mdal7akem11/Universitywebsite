@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakem's University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class = "sub-header">
+       <nav>
+        <a href="index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+       </nav> 
+       <h1>Our Courses</h1>
+      
+    </section>
+    <!-- course -->
+    <section class="course">
+        <h1>Offered Courses</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Real Madrid is the greatest club in the World. Cristiano Ronlado dos Santos Aveiro is, was and will always be the greatest player of all time.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Real Madrid is the greatest club in the World. Cristiano Ronlado dos Santos Aveiro is, was and will always be the greatest player of all time.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Real Madrid is the greatest club in the World. Cristiano Ronlado dos Santos Aveiro is, was and will always be the greatest player of all time.</p>
+            </div>
+        </div>
+    </section>
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>AlNassr is the first Asian club to play in the Club World Cup hence it is known by its fans as "The Global", AlNassr is also the first ever team to win the fair play award at the Club World Cup cementing its legacy forever and representing the club's values at a global stage</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/library.png">
+                <h3>World Class Library</h3>
+                <p>Hala Madrid y Nada Mas</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/basketball.png">
+                <h3>Champions of college basketball</h3>
+                <p>Hala Madrid y Nada Mas</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/cafeteria.png">
+                <h3>Amazing Cuisine</h3>
+                <p>Hala Madrid y Nada Mas</p>
+            </div>
+
+        </div> 
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website was made by MohamedAlKamel Omer Hussien Suliman AL-Hakem.<br> For more information contact me at this email: m7mdal7akim@gmail.com</p>
+    </section>
+
+
+
+
+
+
+
+    <!-----------JS code to toggle menu------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+    
+</body>
+</html>
